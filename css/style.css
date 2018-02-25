@@ -340,28 +340,22 @@ li.agile-it-adress-left b {
     transform: translateY(-50%) scale(0);
     opacity: .6;
     font: 14px/1 FontAwesome;
-    font-size:1.2em;
+    font-size:1.4em;
 } 
 .cd-stretchy-nav ul li:nth-of-type(2) a::after {
-    content: "\f05a";
+    content: "\f009";
 }
 .cd-stretchy-nav ul li:nth-of-type(3) a::after {
-	content: "\f0c0";
+	content: "\f1ea";
+	font-size: 1.1em;
 }
 .cd-stretchy-nav ul li:nth-of-type(4) a::after {
-    content: "\f03e";
-	font-size:1.1em;
+    content: "\f05a";
 }
 .cd-stretchy-nav ul li:nth-of-type(5) a::after {
-	content: "\f009";
+	content: "\f0c0";
+	font-size:1.1em;
 }
-.cd-stretchy-nav ul li:nth-of-type(6) a::after {
-    content: "\f1ea";
-    font-size:1.1em;
-}
-.cd-stretchy-nav ul li:nth-of-type(7) a::after {
-    content: "\f003";
-} 
 .cd-stretchy-nav.edit-content ul span {
     position: absolute;
     top: 6px;
@@ -1075,81 +1069,7 @@ h4.modal-title {
     padding: 20px;
     width: 100%;
 }
-/*-- //model --*/  
-/*-- contact --*/
-
-/*-- contact-form --*/ 
- .contact{
-	   background: url(../images/c2.jpg) no-repeat 0px 0px;
-    background-size: cover;
-	min-height:500px;
-
- }
-.contact-left.agileits-w3layouts {
-    padding: 0;
-} 
-.contact input[type="text"],.contact input[type="email"] {
-    width: 100%;
-    color: #fff;
-    float: left;
-    background: none;
-    outline: none;
-    font-size: 1em;
-    padding: 1em 1em;
-    margin-bottom: 1em;
-    border: solid 1px #fff;
-    -webkit-appearance: none;
-    display: inline-block;
-}
-.contact textarea {
-    resize: none;
-    width: 100%;
-    background: none;
-    color: #999;
-    font-size: 1em;
-    outline: none;
-    padding: 1em .8em;
-    border: solid 1px #999;
-    min-height: 12.5em;
-    -webkit-appearance: none;
-}
-.contact input[type="submit"] {
-    outline: none;
-    color: #fff;
-    padding: .5em 2em;
-    margin-top: 12px;
-    font-size: 1em;
-    -webkit-appearance: none;
-    background: #01bcfa;
-    border: 1px solid #01bcfa;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    transition: 0.5s all;
-    /* width: 100%; */
-    float: right;
-    letter-spacing: 1px;
-}
-.contact input[type="text"]:focus,.contact input[type="email"]:focus,.contact textarea:focus {
-    border-color: #00b8ce;
-}
-.contact input[type="submit"]:hover {
-    background: none;
-    color: #01bcfa;
-    border-color: #01bcfa;
-}
-::-webkit-input-placeholder {
-	color:#999 !important;
-}
-:-moz-placeholder { /* Firefox 18- */
-	color:#999 !important;
-}
-::-moz-placeholder {  /* Firefox 19+ */
-	color:#999 !important;
-}
-:-ms-input-placeholder {  
-	color:#999 !important;
-} 
-/*-- //contact form--*/ 
+/*-- //model --*/
 /*-- footer --*/
 .w3l_footer{
 	     background: #000;
