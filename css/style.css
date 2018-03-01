@@ -51,7 +51,7 @@ a:focus, a:hover {
     background: url(../images/back.jpg) no-repeat 0px 0px;
     background-size: cover;
 	min-height:750px;
-	    position: relative;
+	position: relative;
 }
 .agileinfo-dot{
     background: url(../images/dott.png)repeat 0px 0px;
